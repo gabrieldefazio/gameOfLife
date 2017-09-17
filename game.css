@@ -1,0 +1,52 @@
+body {
+  padding: 10px;
+  background-color: #5e5e5e;
+  color: #ffffff;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #ec971f;
+  font-size: 35px;
+}
+#board{
+  margin: 0 auto;
+}
+
+#board td{
+  border: 1px solid #ec971f;
+  width: 18px;
+  height: 18px;
+}
+
+td.alive {
+  background-color: #ec971f;
+}
+
+td.dead {
+  background-color: #5e5e5e;
+}
+
+#control_panel {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.btn-success {
+  color: #fff;
+
+}
+button {
+  font-family: 'Monoton', cursive;
+  font-size: 29px;
+  color: #5e5e5e;
+  background-color: #F1971F;
+  border-color: #f19a26;
+  color: #fff;
+}
+#col-md-7{
+  padding-top: 30px;
+}
+
+

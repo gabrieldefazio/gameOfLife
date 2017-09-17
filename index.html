@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Game of Life - Fullstack Academy</title>
+  <link rel="stylesheet" href="libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="game.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+</head>
+
+<body>
+<div class="row">
+
+<div class="row">
+  <div class="col-md-5" style="text-align:justify; PADDING-LEFT: 100px; PADDING-TOP: 50px;"><h2>Game of Life</h2><br /> <p><strong>The Game of Life was developed by John Conway in 1970 as a pseudo-simulation of life.</strong> It is a simple model which can be used to model complex behavior and is a universal Turing machine.</p><p>The game starts with an initial state (you can input one by clicking on cells or generate a random start by clicking the Random button). You can then press Play to automatically generate next states or go through each step manually with the Step button. Each state is generated with one of the following rules:</p>
+    <ul>
+      <li> Any live cell with two or three live neighbors lives on to the next generation. </li>
+      <li>Any live cell with fewer than two live neighbors dies, as if caused by under-population.</li>
+      <li>Any live cell with more than three live neighbors dies, as if by overcrowding.</li>
+      <li>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</li> </ul> <small>Adapted from Wikipedia- <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Read more</a> there. </small></div>
+  <div><p><br /><br />  </p></p></div>
+  <table id='board'></table>
+</div>
+<div class="row">
+  <div class="col-md-5"></div>
+  <div class="col-md-7">
+    <div id='control_panel'>
+      <button id='play_btn' >Play</button>
+      <button id='step_btn' >Step</button>
+      <button id='reset_btn' >Reset</button>
+      <button id='clear_btn' >Clear</button>
+    </div>
+  </div>
+</div>
+<script src="game.js"></script>
+
+</body>
+</html>
