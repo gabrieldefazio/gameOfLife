@@ -37,12 +37,14 @@ td.dead {
 
 }
 button {
-  font-family: 'Bungee', cursive;
-  font-size: 29px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
   color: #5e5e5e;
   background-color: #F1971F;
   border-color: #f19a26;
   color: #fff;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 #col-md-7{
   padding-top: 30px;
