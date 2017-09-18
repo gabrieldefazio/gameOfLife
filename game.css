@@ -1,6 +1,6 @@
 body {
   padding: 10px;
-  background-color: #5e5e5e;
+  background-color: #003238;
   color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ td.alive {
 }
 
 td.dead {
-  background-color: #5e5e5e;
+  background-color: #003238;
 }
 
 #control_panel {
